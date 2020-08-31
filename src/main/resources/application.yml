@@ -1,0 +1,16 @@
+#app
+#server:
+#    port: 18070
+
+#spring
+spring:
+  devtools:
+    restart:
+      enabled: false
+  application:
+    name: canalclient
+
+#logging
+logging:
+  level: info
+  config: classpath:logback.xml
